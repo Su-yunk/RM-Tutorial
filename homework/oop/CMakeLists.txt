@@ -5,3 +5,4 @@ include_directories("./include")
 FILE(GLOB_RECURSE SOURCE_FILES "src/*.cpp")
 
 add_executable(rational_test src/main.cpp ${SOURCE_FILES})
+
